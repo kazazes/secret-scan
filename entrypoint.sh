@@ -1,3 +1,3 @@
 #!/usr/bin/env sh
 set -e
-trufflehog $GITHUB_WORKSPACE
+trufflehog --entropy=False --regex $GITHUB_WORKSPACE
